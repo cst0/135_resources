@@ -62,12 +62,13 @@ NaN's. We can deal with this later.
 With all these columns, now we can start to access the data in different ways.
 The simplest is to just grab a column, or an index, but we can also grab
 multiple columns, or multiple indices, or even a subset of the data.
-"""  # fmt: off
+"""
 )
-col_a = my_dataframe["a"]  # select the column named "a"
-index_0 = my_dataframe.index[0]  # select the index at position 0
-col_a_index_0 = my_dataframe["a"][0]  # select the val of column a at 0
-col_a_first_five = my_dataframe["a"][:5]  # select the first 5 vals of a
+# fmt: off
+col_a = my_dataframe["a"]                          # select the column named "a"
+index_0 = my_dataframe.index[0]                    # select the index at position 0
+col_a_index_0 = my_dataframe["a"][0]               # select the val of column a at 0
+col_a_first_five = my_dataframe["a"][:5]           # select the first 5 vals of a
 col_a_b_first_five = my_dataframe[["a", "b"]][:5]  # select first 5 of a+b
 # fmt: on
 
