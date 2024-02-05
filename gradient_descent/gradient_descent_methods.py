@@ -9,6 +9,10 @@ for binary classification. Now, we'll take a look at a handful of different
 gradient descent methods that can be used to optimize the parameters of a
 model. Each of these methods has its own strengths and weaknesses, and the
 choice of which to use will depend on the specific problem at hand.
+
+This example borrows heavily from the following article, which is another
+good resource for learning about this:
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/ch04.html
 """
 )
 
