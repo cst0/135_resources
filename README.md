@@ -12,8 +12,23 @@ manually.
 
 Directory breakdown:
 
+### Numpy Operations
+
+| File     | Description                             |
+|----------|-----------------------------------------|
+| basic.py | Some simple Numpy operations on arrays. |
+
 ### Pandas Operations
-| File         | Description     |
-|--------------|-----------|
-| basics.py | basic pandas frame creation and manipulation. |
+
+| File        | Description                                                                           |
+|-------------|---------------------------------------------------------------------------------------|
+| basics.py   | basic pandas frame creation and manipulation.                                         |
 | advanced.py | dealing with NaNs, complex time series, and using the `appy` and `rolling` functions. |
+
+### Gradient Descent
+| File                        | Description                                                                         |
+|-----------------------------|-------------------------------------------------------------------------------------|
+| logistic_regression.py      | A simple example of using logistic regression on a randomly-generated dataset.      |
+| gradient_descent_methods.py | Exploring gradient descent optimizations, including Batch and SGD.                  |
+| iris_data.py                | Multi-class classifications on the scikit-provided 'iris' dataset.                  |
+| challenge.py                | I've provided a dataset about university admissions. What predictions can you make? |
