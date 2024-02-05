@@ -10,6 +10,9 @@ Recommended usage:
 Each example will provide a bunch of text output describing what it does. Alternatively, you can read through each one
 manually.
 
+There's also a 'challenges.py' which will be in each directory. Feel free to complete these if you'd like a bit of
+practice with using the concepts introduced by the examples.
+
 Directory breakdown:
 
 ### Numpy Operations
@@ -19,11 +22,11 @@ Directory breakdown:
 | basic.py | Some simple Numpy operations on arrays. |
 
 ### Pandas Operations
-
-| File        | Description                                                                           |
-|-------------|---------------------------------------------------------------------------------------|
-| basics.py   | basic pandas frame creation and manipulation.                                         |
-| advanced.py | dealing with NaNs, complex time series, and using the `appy` and `rolling` functions. |
+| File          | Description                                                                                  |
+|---------------|----------------------------------------------------------------------------------------------|
+| basics.py     | basic pandas frame creation and manipulation.                                                |
+| advanced.py   | dealing with NaNs, complex time series, and using the `appy` and `rolling` functions.        |
+| challenges.py | Test cases to be completed fro frame creation, manipulation, dealing with NaNs, and `apply`. |
 
 ### Gradient Descent
 | File                        | Description                                                                         |
